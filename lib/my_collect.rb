@@ -1,5 +1,5 @@
 
-def my_collect(collection)
+def my_collect(array)
   i = 0
   collection = []
   while i < collection.length
@@ -8,3 +8,5 @@ def my_collect(collection)
   end
   collection
 end
+
+yield
